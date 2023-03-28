@@ -1,0 +1,39 @@
+html body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    align-items: center;
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 1em;
+    height: 100%;
+    justify-content: center;
+}
+
+.centered {
+    background: #f16059;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 3.125em;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+/*** for tablets (min-width: 786px) ***/
+@media screen and (min-width: 786px) {
+    h1 {
+        font-size: 3em;
+    }   
+}
+
+/*** for desktops (min-width: 1200px) ***/
+@media screen and (min-width: 1200px) {
+    font-size: 4em;
+}
